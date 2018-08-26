@@ -1,16 +1,16 @@
-Projekt koñcowy - Gra 'Wisielec'
+Gra 'Wisielec' - projekt koÅ„cowy Coders Lab
 
 Opis:
-Gra polegaj¹ca na odgadywaniu s³ów.
-Zawiera cztery kategorie trudnoœci: kolory,imiona, miasta (dane zaczytywane z lokalnego pliku js)
-oraz kategorie pañœtwa (dane zaczytywane z RestAPI - https://restcountries.eu/)
-Na planszy mamy ukryte s³owo. Ka¿da litera zamieniona jest znakiem '_'.
-Gracz wybiera dowoln¹ literê, jeœli znajduje siê ona w odgadywanym s³owie to
-w haœle zostan¹ ods³oniête wszystkie wyst¹pienia tej literyw przeciwnym wypadku zostaje tworzona szubienica.
-W ka¿dym haœle mo¿emy pope³niæ max 10 b³êdów i skorzystaæ z podpowiedzi.
+Gra polegajÄ…ca na odgadywaniu sÅ‚Ã³w.
+Zawiera cztery kategorie trudnoÅ›ci: kolory,imiona, miasta (dane zaczytywane z lokalnego pliku js)
+oraz kategorie paÅ„Å›twa (dane zaczytywane z RestAPI - https://restcountries.eu/)
+Na planszy mamy ukryte sÅ‚owo. KaÅ¼da litera zamieniona jest znakiem '_'.
+Gracz wybiera dowolnÄ… literÄ™, jeÅ›li znajduje siÄ™ ona w odgadywanym sÅ‚owie to
+w haÅ›le zostanÄ… odsÅ‚oniÄ™te wszystkie wystÄ…pienia tej literyw przeciwnym wypadku zostaje tworzona szubienica.
+W kaÅ¼dym haÅ›le moÅ¼emy popeÅ‚niÄ‡ max 10 bÅ‚Ä™dÃ³w i skorzystaÄ‡ z podpowiedzi.
 
 Uruchomienie:
-Nale¿y uruchomiæ webpacka poleceniami:
+NaleÅ¼y uruchomiÄ‡ webpacka poleceniami:
 - npm i
 - npm start
 
