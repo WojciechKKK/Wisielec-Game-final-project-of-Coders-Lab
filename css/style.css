@@ -1,0 +1,340 @@
+body {
+	margin: 0;
+	padding:  0;
+	box-sizing: border-box;
+	font-family: "Arial Light", Arial, sans-serif;
+	}
+
+
+
+/*główny kontener*/
+.container {
+	width: 900px;
+	margin: 20px auto;
+	/* border: 1px solid black; */
+	overflow: hidden;
+	position: relative;
+}
+
+
+section {
+	 /* border: 1px solid black;  */
+	text-align: center;
+	margin-top: 10px
+}
+
+
+
+/*miejsce na style dla sekcji FIRST - wyświetlanie hasła*/
+/* .first {
+
+	background: white;
+	height: 60px;
+} */
+
+/* odpowiada za wygląd hasła */
+.words {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	font-size: 30px;
+	text-align: center;
+	/*border: 3px solid red; */
+	border-bottom: 5px solid green;
+	margin-left: 20px;
+	color: white;
+}
+
+
+
+/* style dla sekcji THIRD - obrazki i aplfabet */
+.third {
+	background: white;
+	text-align: center;
+	padding: 0px;
+}
+
+.third:before, .third:after { content: ""; display: table; clear: both; }
+
+
+
+/* dla zdjęc */
+.images {
+	width: 49%;
+	float: left;
+	/*border: 1px solid red */
+}
+
+
+.textAlphabet {
+	width: 49%;
+	float: right;
+	/*border: 1px solid red;*/
+}
+
+/* odpowiada za wygląd liter alfabetu */
+.alphabet {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	font-size: 30px;
+	text-align: center;
+	border: 1px solid black;
+	margin: 7px;
+	color: black;
+	cursor: pointer;
+	border-radius: 20%;
+}
+
+.alphabet:hover {
+	border: 1px solid white;
+	color: white;	
+	background-color: black;
+
+}
+
+
+
+/*style dla sekcji third - infocmacje o stanie gry / errors */
+
+.errors {
+	
+	text-align: center;
+	font-size: 20px;
+	width: 80%;
+	margin: 20px auto;
+	/* font-family: 'Indie Flower', cursive; */
+	font-family: 'Gloria Hallelujah', cursive;
+	
+}
+
+
+/* klasy dla letter i password */
+.activeLetter {
+	color: white;
+	cursor: none;
+	background-color: green;
+}
+
+
+
+.inActiveLetter {
+	color: white;
+	cursor: none;
+	background-color: red;
+}
+
+
+
+
+
+
+
+/*OKNO z wyborem kategorii*/
+
+div#over {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	/*background-color: red;*/
+	/* transform: translate(50px, 50%); */
+	transition: 3s;
+	/* background-color: rgba(158, 143, 143, 0.9); */
+	
+	/* background-color: rgb(104, 156, 253); */
+	width: 100%;
+	text-align: center;
+	/* background-color: rgba(177, 191, 247, 0.9); */
+	/* background-color: rgba(175,175,175, 0.9) */
+	/* background:rgba(113, 109, 109, 0.9); */
+	background: rgba(255,255,255,1);
+	border-radius: 20px;
+}
+
+div#over h3 {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bolder;
+	color: rgb(255, 255, 255);
+	font-family: 'Hanalei Fill', cursive;
+	font-weight: 100;
+	letter-spacing: 0.3em;
+}
+
+.cathegory {
+	text-transform: uppercase;
+	padding: 10px;
+	margin: 10px;
+	font-size: 25px;
+	margin-top: 30px;
+	/* border-color: black; */
+	height: 70px;
+	width: 150px;
+	color: rgb(101, 129, 241);;
+	/* box-shadow: 0 0 40px 40px rgb(177, 191, 247) inset, 0 0 0 0 rgb(177, 191, 247);
+	transition: all 150ms ease-in-out; */
+	
+	border-radius: 50px;
+	transition: 1s;
+	 font-family: 'Hanalei Fill', cursive; 
+	 /* border: 4px solid #afafaf; */
+	 /* border: 2px solid  rgb(177, 191, 247); */
+	/* background: white; */
+	border: 1px solid white;
+	
+}
+.cathegory:hover {
+	  /* box-shadow: 0 0 10px 0 rgb(177, 191, 247) inset, 0 0 10px 4px ; */
+	  /* box-shadow: 0 0 10px rgb(177, 191, 247); */
+	  color: white;
+	  background-color:#afafaf;
+	  transform: scale(1.2);
+	  /* border: 2px solid black; */
+}
+
+/*menu powitalne */
+h1 {
+	font-family: 'Hanalei Fill', cursive;
+	font-size:  80px;
+	/* color: black; */
+	color: #53393994;
+	/* text-shadow: -5px 1px 8px rgb(177, 191, 247); */
+	/* text-shadow: 0px 10px 10px #800000; */
+	text-shadow: 0px 0px 90px #090707, 0px 0px 0px red;
+	font-weight: 100;
+	letter-spacing: 0.3em;
+
+	
+}
+
+.infoCathegory {
+	font-size: 10px;
+	color: transparent;
+	text-transform: lowercase;
+	font-weight: 700;
+}
+
+.cathegory:hover .infoCathegory{
+	color: #800000;
+	font-weight: 700;
+	font-family: 'Hanalei Fill', cursive;
+}
+
+
+
+
+/* .invisible {
+	display: none;
+};
+ */
+/* 
+ .test {
+	transition: 3s;
+	opacity: 1;
+}
+
+.test2 {
+	opacity: 0;
+}
+ */
+
+/* .abc {
+	opacity: 0;
+	transition: 3s;
+} */
+
+/* .abc1 {
+	opacity: 1;
+	transition: 3s;
+} */
+
+
+/* dla images win or lost */
+@keyframes	pulse	{
+	0%	{
+			opacity:	0;
+	}
+	50%	{
+			opacity:	1;
+	}
+	100%	{
+		opacity:	0;
+	}
+}
+
+
+.pulse	{
+	animation-name:	pulse;
+	animation-duration:	2s;
+	animation-iteration-count:	infinite;
+	width: 70%;
+}
+
+.question {
+	color: red;
+	background-color: rgb(99, 95, 95);
+	width: 100px;
+	padding: 20px;
+	margin: 20px;
+	color: black;
+}
+
+.category {
+	font-size: 30px;
+	color:  black;
+	margin-bottom: 30px;
+	font-family: 'Hanalei Fill', cursive;
+}
+.textCat{
+	font-size: 30px;
+	color:  rgb(101, 129, 241);
+	margin-bottom: 30px;
+	font-family: 'Hanalei Fill', cursive;
+}
+
+
+
+/* dla buttona zagraj jeszcze raz */
+.again {
+	background-color: green;
+	color: white;
+	padding: 10px;
+	border-radius: 30px;
+	/* font-weight: 700; */
+	border: 1px solid green;;
+	font-family: 'Hanalei Fill', cursive;
+	letter-spacing: 0.2em;
+
+}
+
+/* dla buttona z podpowiedzią */
+.prompt {
+/* background:rgb(17, 52, 193)
+border: 1px solid black; */
+cursor: pointer;
+border-radius: 10px;
+color: blue;
+/* border: 1px solid black; */
+border: none;
+background: white;
+font-weight: 700;
+font-size: 12px;
+/* font-family: 'Sedgwick Ave Display', cursive; */
+
+font-family: 'Bungee Hairline', cursive;
+
+}
+
+/* do grafiki na koniec
+font-family: 'Butcherman', cursive;  */
+
+
+
+.informations {
+	margin-top: 10px;
+}
