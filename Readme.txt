@@ -15,3 +15,5 @@ You must run the webpack.
 
 Used technologies:
 JavaScript, ES6, Webpack
+
+Link: https://wojciechkkk.github.io/
