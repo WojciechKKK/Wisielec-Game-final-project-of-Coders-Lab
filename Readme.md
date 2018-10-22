@@ -1,4 +1,4 @@
-#'Wisielec' Game - Final project of Coders Lab
+# 'Wisielec' Game - Final project of Coders Lab
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
