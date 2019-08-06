@@ -26,4 +26,4 @@ $ npm install
 $ npm start
 ```
 Link: 
-https://wojciechkkk.github.io/
+https://wojciechkkk.github.io/wisielec_game/
